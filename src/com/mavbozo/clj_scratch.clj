@@ -2,7 +2,7 @@
 ;; This source code is licensed under the MIT license found in the
 ;; LICENSE.txt file in the root directory of this source tree. 
 
-(ns com.mavbozo.scratch)
+(ns com.mavbozo.clj-scratch)
 
 (defn data-fn
   "Example data-fn handler.

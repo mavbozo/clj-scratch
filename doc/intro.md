@@ -1,3 +1,3 @@
-# Introduction to com.mavbozo/scratch
+# Introduction to com.mavbozo/clj-scratch
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)

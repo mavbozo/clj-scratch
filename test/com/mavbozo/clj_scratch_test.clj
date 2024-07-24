@@ -8,10 +8,10 @@
             [clojure.spec.alpha :as s]
             [clojure.test :refer :all]
             [org.corfield.new] ; for the Specs
-            [com.mavbozo.scratch :refer :all]))
+            [com.mavbozo.clj-scratch :refer :all]))
 
 (deftest valid-template-test
   (testing "template.edn is valid."
-    (let [template (edn/read-string (slurp (io/resource "com/mavbozo/scratch/template.edn")))]
+    (let [template (edn/read-string (slurp (io/resource "com/mavbozo/clj_scratch/template.edn")))]
       (is (s/valid? :org.corfield.new/template template)
           (s/explain-str :org.corfield.new/template template)))))

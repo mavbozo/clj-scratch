@@ -1,6 +1,6 @@
-# com.mavbozo/scratch
+# com.mavbozo/clj-scratch
 
-FIXME: my new template.
+A deps-new template for clojure quick and dirty coding
 
 ## Usage
 
@@ -9,7 +9,7 @@ FIXME: write usage documentation!
 This is a template project for use with [deps-new](https://github.com/seancorfield/deps-new).
 As originally generated, it will produce a new library project when run:
 
-    $ clojure -Sdeps '{:deps {com.mavbozo/scratch {:local/root "."}}}' -Tnew create :template com.mavbozo/scratch :name myusername/mycoollib
+    $ clojure -Sdeps '{:deps {com.mavbozo/clj-scratch {:local/root "."}}}' -Tnew create :template com.mavbozo/clj-scratch :name myusername/mycoollib
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
