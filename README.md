@@ -15,7 +15,7 @@ using local template:
 	
 using git coordinates:
 
-	$ clojure -Sdeps '{:deps {com.mavbozo/clj-scratch {:git/url "https://github.com/mavbozo/clj-scratch.git" :git/sha "517ef004f989198adcf053a12c04d1ec456b337b"}}}' -Tnew create :template com.mavbozo/clj-scratch :name myusername/my-scratch
+	$ clojure -Sdeps '{:deps {com.mavbozo/clj-scratch {:git/url "https://github.com/mavbozo/clj-scratch.git" :git/sha "517ef00" :git/tag "v0.1.2"}}}' -Tnew create :template com.mavbozo/clj-scratch :name myusername/my-scratch
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
